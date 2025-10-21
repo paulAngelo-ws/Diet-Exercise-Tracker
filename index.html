@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="css/styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pangda, MID-Lab5</title>
+</head>
+<body>
+    <table>
+        <tr>
+            <td id="Banner" colspan="2">
+                <h1>Weekly Diet & Exercise Tracker</h1>
+                <p>Monitor your meals and workouts for a healthier lifestyle.</p>
+            </td>
+        </tr>
+
+        <tr>
+            <td id="bodyContent"> 
+                <form>
+                    <fieldset>
+                        <legend>
+                            <h3>Personal Info</h3>
+                        </legend>
+                        
+                        <p>Name: <input type="text" placeholder="Enter Your Name"> </p>
+                        <p>Age: <input type="number" placeholder="Enter Your Age"> </p>
+                        <p>Gender: <select>
+                            <option selected disabled>--Select--</option>
+                            <option>Male</option>
+                            <option>Female</option>
+                            <option>Others</option>
+                        </select> </p>
+                    </fieldset>
+
+                    <fieldset>
+                        <legend>
+                            <h3>Diet Tracking (Mon–Fri)</h3>
+                        </legend>
+
+                        <table id="dayTable">
+                            <tr>
+                                <td class="weekDay">
+                                    <h4>Day</h4>
+                                </td>
+                                <td class="inputCont">
+                                    <h4>Calories</h4>
+                                </td>
+                            </tr>                            
+                            <tr>
+                                <td class="weekDay">Mon</td>
+                                <td class="inputCont"> <input type="number"> </td>
+                            </tr>
+                            <tr>
+                                <td class="weekDay">Tues</td>
+                                <td class="inputCont"> <input type="number"> </td>
+                            </tr>
+
+                            <tr>
+                                <td class="weekDay">Wed</td>
+                                <td class="inputCont"> <input type="number"> </td>
+                            </tr>
+
+                            <tr>
+                                <td class="weekDay">Thurs</td>
+                                <td class="inputCont"> <input type="number"> </td>
+                            </tr>
+                            <tr>
+                                <td class="weekDay">Fri</td>
+                                <td class="inputCont"> <input type="number"> </td>
+                            </tr>
+                        </table>
+                    </fieldset>
+
+                    <fieldset>
+                        <legend>
+                            <h3>Exercise (Mon–Fri)</h3>
+                        </legend>
+                        <table id="dayTable">
+                            <tr>
+                                <td class="weekDay">
+                                    <h4>Day</h4>
+                                </td>
+                                <td class="inputCont">
+                                    <h4>Minutes</h4>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="weekDay">Mon</td>
+                                <td class="inputCont"> <input type="number"> </td>
+                            </tr>
+                            <tr>
+                                <td class="weekDay">Tues</td>
+                                <td class="inputCont"> <input type="number"> </td>
+                            </tr>
+                            <tr>
+                                <td class="weekDay">Wed</td>
+                                <td class="inputCont"> <input type="number"> </td>
+                            </tr>
+                            <tr>
+                                <td class="weekDay">Thurs</td>
+                                <td class="inputCont"> <input type="number"> </td>
+                            </tr>
+                            <tr>
+                                <td class="weekDay">Fri</td>
+                                <td class="inputCont"> <input type="number"> </td>
+                            </tr>
+                        </table>
+                    </fieldset>
+                    <button id="subBtn">Submit</button>
+                    <button id="resBtn">Reset</button>
+                </form>
+            </td>
+
+            <td id="rightBody"> 
+                <iframe src="videos/Why you’re not losing fat in the areas you want - Yellow Dude  Gravgear (720p, h264).mp4" frameborder="1"> </iframe>
+                <p>Watch this video for tips on healthy eating and exercise!</p>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
